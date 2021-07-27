@@ -9,5 +9,4 @@ target
 *.log
 .config
 .env
-.optic
 .vscode

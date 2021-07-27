@@ -6,5 +6,5 @@ tasks:
     inboundUrl: http://localhost:8080
   # Use the test command to test your API in your CI build pipeline 
   test:
-    command: export SERVER_PORT=$PORT;mvn test
+    command: mvn test
     useTask: start

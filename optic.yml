@@ -1,0 +1,10 @@
+name: "spring-product-rest"
+# Start your api with Optic by running 'api run <taskname>'
+tasks:
+  start:
+    command: export SERVER_PORT=$PORT;mvn clean spring-boot:run
+    inboundUrl: http://localhost:8080
+  # Use the test command to test your API in your CI build pipeline 
+  test:
+    command: "echo \"Error: no test command specified\" && exit 1"
+    useTask: start

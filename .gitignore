@@ -1,0 +1,13 @@
+.idea
+target
+*.iml
+.project
+.settings
+.DS_Store
+.classpath
+.factorypath
+*.log
+.config
+.env
+.optic
+.vscode

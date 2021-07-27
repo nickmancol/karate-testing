@@ -1,10 +1,7 @@
 package karate.product;
 
-import com.intuit.karate.junit5.Karate;
+import karate.KarateTests;
 
-public class ProductRunner {
-    @Karate.Test
-    Karate testAll() {
-        return Karate.run().relativeTo(getClass());
-    }
+public class ProductRunner extends KarateTests {
+    
 }

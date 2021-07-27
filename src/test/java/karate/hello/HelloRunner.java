@@ -1,10 +1,6 @@
 package karate.hello;
 
-import com.intuit.karate.junit5.Karate;
+import karate.KarateTests;
 
-public class HelloRunner {
-    @Karate.Test
-    Karate testAll() {
-        return Karate.run().relativeTo(getClass());
-    }
+public class HelloRunner extends KarateTests {
 }
